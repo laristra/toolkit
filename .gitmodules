@@ -1,0 +1,9 @@
+[submodule "flecsi-sp"]
+	path = flecsi-sp
+	url = ../../laristra/flecsi-sp.git
+[submodule "flecsi"]
+	path = flecsi
+	url = ../../laristra/flecsi.git
+[submodule "portage"]
+	path = portage
+	url = ../../laristra/portage.git
