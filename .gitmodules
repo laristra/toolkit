@@ -7,3 +7,6 @@
 [submodule "portage"]
 	path = portage
 	url = ../../laristra/portage.git
+[submodule "cinch"]
+	path = cinch
+	url = ../../laristra/cinch.git
