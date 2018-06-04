@@ -9,7 +9,7 @@ project(ristratkt)
 
 option(BUILD_FleCSI "Build FleCSI" OFF)
 option(BUILD_FleCSISP "Build FleCSI-SP" OFF)
-#option(BUILD_PORTAGE "Build Portage" OFF)
+option(BUILD_PORTAGE "Build Portage" OFF)
 
 #------------------------------------------------------------------------------#
 # load cinch extras
@@ -31,7 +31,10 @@ endif()
 if(BUILD_FleCSISP)
  cinch_add_subproject("flecsi-sp")
 endif()
-#cinch_add_subproject("portage")
+
+if(BUILD_PORTAGE)
+ cinch_add_subproject("portage")
+endif()
 
 
 #~---------------------------------------------------------------------------~-#
