@@ -4,8 +4,8 @@ The Ristra toolkit is a collection of Ristra projects tools at specific blessed 
 
 The tools are
 - libristra, support utilities for Ristra codes
-- flecsi, the core FleCSI
-- flecsi-sp, discretization specializations for FleCSI, in particular the Burton specialization for arbitrary polytopal meshes
+- flecsi, the Flexible Computer Science Infrastructure (FleCSI)
+- flecsi-sp, discretization specializations for FleCSI
 - portage, the remap and link library
 - tangram, an interface reconstruction library
 
