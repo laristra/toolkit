@@ -1,12 +1,13 @@
-# toolkit: Ristra Toolkit version 1.0
+# toolkit: Ristra Toolkit version 2.0
 
 The Ristra toolkit is a collection of Ristra projects tools at specific blessed versions that have been tested together as a working coordinated release.
 
 The tools are
-- portage, the remap and link library
+- libristra, support utilities for Ristra codes
 - flecsi, the core FleCSI
 - flecsi-sp, discretization specializations for FleCSI, in particular the Burton specialization for arbitrary polytopal meshes
-- flecsale, example gas dynamics applications and supporting infrastructure
+- portage, the remap and link library
+- tangram, an interface reconstruction library
 
 We use git submodules to keep track of the blessed versions.  To check out the complete set use
 ```

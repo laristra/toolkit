@@ -7,3 +7,9 @@
 [submodule "portage"]
 	path = portage
 	url = ../../laristra/portage.git
+[submodule "libristra"]
+	path = libristra
+	url = ../../laristra/libristra.git
+[submodule "tangram"]
+	path = tangram
+	url = ../../laristra/tangram.git
